@@ -1,0 +1,26 @@
+{
+  "name": "aliyun-oss-upload-stream",
+  "version": "0.0.1",
+  "description": "Writeable stream for uploading content of unknown size to oss via the multipart API",
+  "main": "./lib/aliyun-oss-upload-stream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berwin/aliyun-oss-upload-stream.git"
+  },
+  "keywords": [
+    "aliyun",
+    "oss",
+    "upload",
+    "pipe",
+    "stream"
+  ],
+  "author": "Berwin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berwin/aliyun-oss-upload-stream/issues"
+  },
+  "homepage": "https://github.com/berwin/aliyun-oss-upload-stream#readme"
+}
