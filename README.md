@@ -2,7 +2,7 @@
 A Node.js module for streaming data to Aliyun oss via the multipart upload API
 
 
-The MIT License (MIT)
+## The MIT License (MIT)
 
 Copyright (c) 2015 Berwin
 
