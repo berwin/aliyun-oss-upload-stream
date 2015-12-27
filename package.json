@@ -1,6 +1,6 @@
 {
   "name": "aliyun-oss-upload-stream",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Writeable stream for uploading content of unknown size to oss via the multipart API",
   "main": "./lib/aliyun-oss-upload-stream.js",
   "scripts": {
