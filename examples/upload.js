@@ -12,16 +12,16 @@ var ossStream = require('../lib/aliyun-oss-upload-stream.js')(new ALY.OSS(config
 }));
 
 var upload = ossStream.upload({
-  Bucket: 'Bucket',
-  Key: 'Key (可以理解为文件名)'
+  Bucket: 'Bucket-Name',
+  Key: 'Key-Name'
 });
 
 upload.on('error', function (error) {
   console.log('error:', error);
 });
 
-upload.on('part', function (details) {
-  console.log('part:', details);
+upload.on('part', function (part) {
+  console.log('part:', part);
 });
 
 upload.on('uploaded', function (details) {
