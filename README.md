@@ -19,10 +19,9 @@
 ```javascript
 
 var ALY = require('aliyun-sdk'),
-  fs = require('fs'),
-  config = require('./config');
+  fs = require('fs');
 
-var ossStream = require('../lib/aliyun-oss-upload-stream.js')(new ALY.OSS(config || {
+var ossStream = require('aliyun-oss-upload-stream')(new ALY.OSS({
   accessKeyId: '在阿里云OSS申请的 accessKeyId',
   secretAccessKey: '在阿里云OSS申请的 secretAccessKey',
   endpoint: 'http://oss-cn-hangzhou.aliyuncs.com',
@@ -61,7 +60,7 @@ var startTime = new Date();
 ```javascript
 var ALY = require('aliyun-sdk');
 
-var ossStream = require('../lib/aliyun-oss-upload-stream.js')(new ALY.OSS({
+var ossStream = require('aliyun-oss-upload-stream')(new ALY.OSS({
   accessKeyId: '在阿里云OSS申请的 accessKeyId',
   secretAccessKey: '在阿里云OSS申请的 secretAccessKey',
   endpoint: 'http://oss-cn-hangzhou.aliyuncs.com',
