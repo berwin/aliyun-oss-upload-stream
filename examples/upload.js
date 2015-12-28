@@ -1,10 +1,9 @@
 'use strict';
 
 var ALY = require('aliyun-sdk'),
-  fs = require('fs'),
-  config = require('./config');
+  fs = require('fs');
 
-var ossStream = require('../lib/aliyun-oss-upload-stream.js')(new ALY.OSS(config || {
+var ossStream = require('../lib/aliyun-oss-upload-stream.js')(new ALY.OSS({
   accessKeyId: '在阿里云OSS申请的 accessKeyId',
   secretAccessKey: '在阿里云OSS申请的 secretAccessKey',
   endpoint: 'http://oss-cn-hangzhou.aliyuncs.com',
