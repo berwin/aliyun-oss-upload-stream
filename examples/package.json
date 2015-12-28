@@ -5,7 +5,7 @@
   "main": "./upload.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "upload": "npm i aliyun-sdk && node upload.js"
+    "upload": "npm install && node upload.js"
   },
   "repository": {
     "type": "git",

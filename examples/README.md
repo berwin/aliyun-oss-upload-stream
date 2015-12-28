@@ -22,7 +22,7 @@ var upload = ossStream.upload({
 ## 安装依赖
 
 ```
-npm i aliyun-sdk
+npm install
 ```
 
 ## 运行
