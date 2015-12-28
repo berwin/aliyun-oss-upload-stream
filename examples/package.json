@@ -1,6 +1,6 @@
 {
   "name": "aliyun-oss-upload-stream-examples-simple",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "aliyun-oss-upload-stream examples simple",
   "main": "./upload.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/berwin/aliyun-oss-upload-stream/issues"
   },
-  "homepage": "https://github.com/berwin/aliyun-oss-upload-stream#readme"
+  "homepage": "https://github.com/berwin/aliyun-oss-upload-stream#readme",
+  "dependencies": {
+    "aliyun-sdk": "^1.7.6"
+  }
 }
