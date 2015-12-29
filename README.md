@@ -37,14 +37,14 @@ upload.on('error', function (error) {
   console.log('error:', error);
 });
 
-upload.on('part', function (details) {
-  console.log('part:', details);
+upload.on('part', function (part) {
+  console.log('part:', part);
 });
 
 upload.on('uploaded', function (details) {
-  var delta = (new Date() - startTime) / 1000;
+  var s = (new Date() - startTime) / 1000;
   console.log('details:', details);
-  console.log('Completed upload in', delta, 'seconds');
+  console.log('Completed upload in %d seconds', s);
 });
 
 var read = fs.createReadStream('./photo.jpg');
