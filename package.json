@@ -1,7 +1,7 @@
 {
   "name": "aliyun-oss-upload-stream",
-  "version": "1.1.0",
-  "description": "Writeable stream for uploading content of unknown size to oss via the multipart API",
+  "version": "1.1.1",
+  "description": "A Node.js module for streaming data to Aliyun oss via the multipart upload API",
   "main": "./lib/aliyun-oss-upload-stream.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

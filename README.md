@@ -5,7 +5,9 @@
 
 [![NPM](https://nodei.co/npm/aliyun-oss-upload-stream.png)](https://nodei.co/npm/aliyun-oss-upload-stream/)
 
-用Aliyun oss 的 Multipart upload API 实现的Node.js模块，通过stream的方式上传文件。
+用[Aliyun oss](https://github.com/aliyun-UED/aliyun-sdk-js) 的 Multipart upload API 实现的Node.js模块，通过stream的方式上传文件。
+
+***官方指定Nodejs模块~***
 
 ## 为什么使用stream？
 
