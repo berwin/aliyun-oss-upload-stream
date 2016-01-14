@@ -1,9 +1,7 @@
 # aliyun-oss-upload-stream
 
-[![NPM Version](https://img.shields.io/npm/v/aliyun-oss-upload-stream.svg)]()
-[![npm](https://img.shields.io/npm/dt/aliyun-oss-upload-stream.svg)]()
-
-[![NPM](https://nodei.co/npm/aliyun-oss-upload-stream.png)](https://nodei.co/npm/aliyun-oss-upload-stream/)
+![NPM Version](https://img.shields.io/npm/v/aliyun-oss-upload-stream.svg)
+![NPM Downloads](https://img.shields.io/npm/dm/aliyun-oss-upload-stream.svg)
 
 用[Aliyun oss](https://github.com/aliyun-UED/aliyun-sdk-js) 的 Multipart upload API 实现的Node.js模块，通过stream的方式上传文件。
 
