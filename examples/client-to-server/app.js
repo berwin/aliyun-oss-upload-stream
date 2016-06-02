@@ -17,7 +17,7 @@ http.createServer(function(req, res) {
     busboy.on('file', function(fieldname, file, filename, encoding, mimetype) {
       var upload = ossStream.upload({
         Bucket: 'Bucket',
-        Key: 'Key (可以理解为文件名)'
+        Key: filename
       });
 
       upload.on('error', function (error) {
