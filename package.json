@@ -1,6 +1,6 @@
 {
   "name": "aliyun-oss-upload-stream",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A Node.js module for streaming data to Aliyun oss via the multipart upload API",
   "main": "./lib/aliyun-oss-upload-stream.js",
   "scripts": {
