@@ -33,6 +33,9 @@ var upload = ossStream.upload({
   Key: 'Key (可以理解为文件名)'
 });
 
+// 可选配置
+upload.minPartSize(1048576); // 1M，表示每块part大小至少大于1M
+
 upload.on('error', function (error) {
   console.log('error:', error);
 });
@@ -75,6 +78,25 @@ var upload = ossStream.upload({
   Bucket: 'Bucket-Name',
   Key: 'Key-Name'
 });
+
+var read = fs.createReadStream('./photo.jpg');
+read.pipe(upload);
+```
+
+## 操作方法
+
+**upload.minPartSize**
+
+用于调整每次上传一小块数据的大小，不得低于200KB，默认为200KB，如果经常上传大文件，建议用此方法把值调整大一些
+
+```
+var upload = ossStream.upload({
+  Bucket: 'Bucket-Name',
+  Key: 'Key-Name'
+});
+
+// 可选配置
+upload.minPartSize(1048576); // 1M，表示每块part大小至少大于1M
 
 var read = fs.createReadStream('./photo.jpg');
 read.pipe(upload);
