@@ -140,7 +140,7 @@ upload.on('uploaded', function (details) {
 npm i --save aliyun-oss-upload-stream
 ```
 
-PS: 如果大家使用过程中，发现什么问题或者需要添加什么功能，及时通知我哈~我会及时更新和发布新版本~
+PS: 如果大家使用过程中，发现什么问题或者需要添加什么功能，及时通知我哈~ 我会及时更新和发布新版本~
 
 ## The MIT License (MIT)
 
